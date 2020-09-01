@@ -1,0 +1,22 @@
+runMode: debug
+server:
+  HTTPPort: 8080
+  readTimeout: 10
+  writeTimeout: 10
+dsp-pool:
+  type: mysql
+  user: root
+  password: root
+  host: 127.0.0.1
+  port: 3306
+  dbname: dsp_pool
+dsp-business-pool:
+  type: mysql
+  user: root
+  password: root
+  host: 127.0.0.1
+  port: 3306
+  dbname: dsp_business_pool
+log:
+  path: logs/
+  prefix: log_

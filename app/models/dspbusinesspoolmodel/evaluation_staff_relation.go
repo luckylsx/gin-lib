@@ -1,0 +1,4 @@
+package dspbusinesspoolmodel
+
+// DspEvaluationStaffRelationTable DspEvaluationStaffRelationTable
+const DspEvaluationStaffRelationTable = "dsp_evaluation_staff_relation"
