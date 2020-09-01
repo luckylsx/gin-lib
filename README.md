@@ -12,7 +12,7 @@ go run main.go
 
 **默认运行http服务**
 
-go run main.go -isCron=true
+go run main.go
 
 **运行 crontab 服务**
 
