@@ -10,7 +10,11 @@ docker exec -it go-docker /bin/bash /opt/wwwroot/go/gin-lib/run.sh
 
 go run main.go
 
-**默认运行计划任务**
+**默认运行http服务**
+
+go run main.go -isCron=true
+
+**运行 crontab 服务**
 
 go run main.go -isCron=true
 
